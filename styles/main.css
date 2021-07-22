@@ -484,15 +484,14 @@ body {
   }
 
   .__list__item {
-    margin-left: 13px;
+    margin-left: 33px;
     list-style-type: none;
   }
   .__list__item::before {
     position: absolute;
-    content: url("./../../images/dot.png");
     color: #FFCC00;
-    top: -6%;
-    left: -2%;
+    top: -11%;
+    left: -3%;
     display: block;
     width: 5px;
   }

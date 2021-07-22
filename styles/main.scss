@@ -1,0 +1,31 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+@import './components/main-page.scss';
+@import './components/header.scss';
+@import './components/first-block.scss';
+@import './components/footer.scss';
+
+@import './components/pop-up.scss';
+
+
+//min-width 460px
+@import './components/tablet-460.scss';
+
+//min-width 576px
+@import './components/tablet-576.scss';
+
+
+//min-width 1200px
+@import './components/desktop-1200.scss';

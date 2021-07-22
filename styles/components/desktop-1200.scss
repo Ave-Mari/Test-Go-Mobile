@@ -1,0 +1,169 @@
+@media screen and (min-width: 1200px) {
+
+
+    .header {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .logo-mobile {
+        margin-bottom: 22px;
+        margin-top: 66px;
+        margin-left: 0;
+        width: 178.96px;
+        height: 59.01px;
+    }
+    
+
+    .block__wrapper {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 136px;
+        justify-content: space-between;
+        margin-bottom: 131px;
+
+    }
+
+    .image__block {
+        margin: 0;
+        width: 709px;
+        height: 567px;
+    }
+
+    .first-block {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+
+
+
+    .info {
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        span {
+            &:nth-child(1) {
+                font-size: 153px;
+                line-height: 104px;
+            }
+
+
+            &:nth-child(2) {
+                font-size: 74px;
+                line-height: 51px;
+            }
+
+            &:nth-child(3) {
+                font-size: 52px;
+                line-height: 54px;
+            }
+
+            &:nth-child(4) {
+                font-size: 22px;
+            }
+
+            &:nth-child(5) {
+                font-size: 18px;
+                margin-bottom: 20px;
+            }
+
+        }
+
+
+
+    }
+
+    .play-btn {
+        cursor: pointer;
+        margin-right: 223px;
+        font-size: 35px;
+        padding: 21px 32px 21px 32px;
+        font-size: 26px;
+        margin-right: 105px;
+
+        &:hover {
+            background: #e99a07;
+        }
+    }
+
+    .footer__wrapper {
+        align-items: center;
+    }
+
+
+    .stores__wrapper {
+        order: 1;
+        max-width: 332px;
+       
+    }
+
+    .btn__wrapper {
+        order: 2;
+    }
+
+    .labels__wrapper {
+        order: 3;
+        max-width: 243px;
+    }
+
+
+
+    .btn__wrapper {
+        width: auto;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .rules__btn {
+        font-size: 23px;
+        margin-bottom: 0;
+    }
+
+
+    /////popup
+    .pop-up__point {
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+    .__list__item, .pop-up__text {
+        font-size: 23px;
+    }
+
+    .pop-up {
+        padding-bottom: 73px;
+       }
+
+       .pop-up__close {
+        font-size: 37px;
+        text-decoration: none;
+        color: #fff;
+        position: absolute;
+        top: 3%;
+      }
+
+      .__list__item {
+        margin-left: 13px;
+        list-style-type: none;
+    
+        
+    
+        &::before {
+            position: absolute;
+            content: url("./../../images/dot.png");
+            color: #FFCC00; 
+            top: -6%;
+            left: -2%;
+            display: block;
+            width: 5px;
+        }
+
+    }
+       
+    
+    
+}
